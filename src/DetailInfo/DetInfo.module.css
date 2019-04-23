@@ -1,0 +1,53 @@
+.main {
+  width: 90%;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.btn_block {
+  display: flex;
+  border: 2px solid #000;
+  margin: 2% auto;
+}
+
+.btn {
+  width: 60%;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.btn:first-child {
+  width: 40%;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.genres {
+  display: flex;
+}
+
+.genres_title, .bold {
+  font-weight: bold;
+}
+
+.list {
+  list-style: none;
+}
+
+@media (min-width: 1024px){
+  .main {
+    width: 70%;
+  }
+
+  .btn_block {
+    width: 30%;
+  }
+}

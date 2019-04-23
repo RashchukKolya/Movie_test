@@ -1,0 +1,69 @@
+.main {
+  padding: 2% 0;
+  width: 80%;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  width: 80%;
+  margin: 2% auto;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  margin: 5% 0;
+  border: 2px solid grey;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.title, .genres, .genres_item {
+  text-align: center;
+}
+
+.genres {
+  font-weight: bold;
+}
+
+.loading {
+  margin: 4% auto;
+  width: 80px;
+}
+
+@media(min-width: 768px){
+  .main {
+    width: 50%;
+  }
+}
+
+@media(min-width: 1024px){
+  .main {
+    width: 95%;
+  }
+
+  .button {
+    width: 20%;
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .item {
+    width: 23%;
+  }
+}

@@ -1,0 +1,43 @@
+.main {
+  width: 90%;
+  margin: auto;
+  padding-top: 20%;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.form {
+  width: 90%;
+  margin: 2% auto;
+  display: flex;
+}
+
+.input {
+  width: 70%;
+  border: 2px solid black;
+  border-right: none;
+  font-size: 1.5rem;
+}
+
+.button {
+  width: 30%;
+  border: 2px solid black;
+  border-left: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+@media(min-width: 768px){
+  .main {
+    width: 50%;
+  }
+}
+
+@media(min-width: 1024px){
+  .main {
+    width: 30%;
+  }
+}
